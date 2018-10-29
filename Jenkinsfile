@@ -1,7 +1,7 @@
 pipeline {
   agent {
     node {
-      label 'trvdevops001'
+      label 'master'
     }
 
   }
