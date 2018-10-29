@@ -14,7 +14,7 @@ pipeline {
 
       }
       steps {
-        powershell(script: 'echo "This is Dev"', returnStatus: true, returnStdout: true)
+        sh 'echo "This is Dev"'
       }
     }
   }
