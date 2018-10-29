@@ -9,7 +9,7 @@ pipeline {
     stage('Dev') {
       agent {
         node {
-          label 'trvdevops001'
+          label 'master'
         }
 
       }
