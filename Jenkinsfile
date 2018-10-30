@@ -10,7 +10,7 @@ pipeline {
       agent {
         node {
           label 'trvdevops001'
-          customWorkspace 'C:\workspace\trvdevops'
+          customWorkspace 'C:\\workspace\\trvdevops'
         }
 
       }
