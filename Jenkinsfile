@@ -14,7 +14,7 @@ pipeline {
 
       }
       steps {
-        sh 'echo "This is Dev"'
+        echo 'Hello'
       }
     }
   }
