@@ -14,8 +14,10 @@ pipeline {
 
       }
       steps {
-        sh 'ls'
-        sh 'pwd'
+        bat "dir"
+      }
+      steps {
+        bat "echo testing...."
       }
     }
   }
