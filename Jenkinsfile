@@ -14,7 +14,7 @@ pipeline {
 
       }
       steps {
-        bat "dir"
+        powershell 'pwd'
       }
     }
   }
