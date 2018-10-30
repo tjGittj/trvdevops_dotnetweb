@@ -14,7 +14,8 @@ pipeline {
 
       }
       steps {
-        sh 'dir'
+        sh 'ls'
+        sh 'pwd'
       }
     }
   }
