@@ -16,9 +16,6 @@ pipeline {
       steps {
         bat "dir"
       }
-      steps {
-        bat "echo testing...."
-      }
     }
   }
 }
