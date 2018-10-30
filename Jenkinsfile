@@ -14,7 +14,7 @@ pipeline {
 
       }
       steps {
-        sh 'echo "braching."'
+        sh 'dir'
       }
     }
   }
